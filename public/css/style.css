@@ -43,6 +43,8 @@ color: #3d71ff;
 
 }
 
+/*PAGINA PRINCIPAL BANNER*/
+
 .adicional {
 width: 100%;
 height: 210px;
@@ -146,7 +148,7 @@ align-items: center;
 border: solid 2px #3d71ff;
 }
 
-/*PRESENTACIÓN PS5*/
+/*PAGINA PRINCIPAL PRESENTACIÓN PS5*/
 
 .section1 {
 height: 1400px;
@@ -243,13 +245,13 @@ height: 550px;
     }
 
     .button__style:hover {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     outline: solid 2px #3d71ff;
     color: #3d71ff;
     }
+   
 
-
-/*JUEGOS EXCLUSIVOS*/
+/*PAGINA DE JUEGOS EXCLUSIVOS*/
 
 
 /*RATCHET & CLANK*/
@@ -425,6 +427,29 @@ outline: 2px solid #3d71ff;
     box-shadow: 2px 2px 10px #000;
     }
 
+/*WHATSAPP FLOTANTE*/
+
+.WhatsApp {
+right: 15px;
+bottom: 25px;
+position: fixed;
+}
+
+.wp-box {
+width: 90px;
+height: 90px;
+border-radius: 50%;
+background-color: #3d71ff;
+font-size: 4em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.WhatsApp a i {
+color: #fff;
+}
+
 /*FOOTER*/
 
 .pie {
@@ -461,6 +486,8 @@ color: #ddd;
 width: 120px;
 }
 
+
+/*PAGINA DE CONTACTO*/
 
 .container {
 margin-top: 50px;
@@ -539,3 +566,77 @@ text-align: center;
 width: 100%;
 margin-top: 30px;
 }
+
+/*PAGINA DE ACCESORIOS PS5*/
+
+
+.banner-accesorios {
+width: 100%;
+height: 350px;
+background: linear-gradient(0deg, rgba(36 ,46,51,0.4) 0%, rgba(36,46,51,0.4) 100%),
+url(../img/jpg/banner-ps5-web.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner-accesorios span {
+background-color: rgba(0, 0, 0, 0.7);
+padding: 20px;
+border-radius: 10px;
+font-size: 5em;
+color: #3d71ff;
+}
+
+/*SECCIÓN JOYSTICKS DUALSENSE*/
+
+.seccion-joysticks {
+height: 200vh;
+background-color: #242E33;
+}
+
+.contenido {
+    width: 100%;
+    height: 350px;
+    margin-top: 70px;
+    background: linear-gradient(0deg, rgba(36, 46, 51, 0.2) 0%, rgba(36,46,51,0.4) 100%),
+    url(../img/jpg/dualsense-background.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    
+}
+
+.joystick-p1 {
+width: 50%;
+
+}
+
+.joystick-p1 img {
+width: 750px;
+height: 750px;
+}
+
+.joystick-p2 {
+width: 50%;
+}
+
+.joystick-p2 iframe {
+ border-radius: 20px;
+ width: 500px;
+ height: 270px;
+ box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+}
+
+.joysticks-description {
+display: flex;
+flex-direction: column;
+text-align: center;
+color: #fff;
+margin-top: 60px;
+}
+

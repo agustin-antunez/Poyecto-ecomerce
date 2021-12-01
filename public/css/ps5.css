@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    }
+    
+    a {
+    outline: none;
+    text-decoration: none;
+    color: #5D94CF;
+    }
+
+
+    h2 {
+    font-family: Helvetica, sans-serif
+    }
+    
+    h3 {
+    font-family: Helvetica, sans-serif;
+    }
+    
+    p {
+    font-family: Helvetica, sans-serif;
+    }
+    
+    body {
+    background-color: #dddddd;
+    }
+    
+    main {
+    height: 250vh;
+    }
+
+/*HEADER*/
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #0D0D0D;
+    display: flex;
+    
+    
+    position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    
+    }
+    
+    .navbar1 {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    
+    }
+    
+    .navbar2 {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 40px;
+    }
+    
+    .navbar2 input {
+    border-radius: 15px;
+    height: 30px;
+    width: 300px;
+    }
+    
+    /*FIN DEL HEADER*/
+
+
+/*SONY PLAYSTATION 5 STANDARD EDITION*/
+
+
+    .card {
+        width: 1280px;
+        height: 350px;
+        background-color: #ffffff;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lado-a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .card .lado-a {
+        background-image: url(../img/jpg/blue-texture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 25px 0px 0px 25px;
+    }
+
+    .lado-a img {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    }
+
+    .lado-b {
+    width: 50%;
+    height: 350px;
+    font-family: Helvetica, sans-serif;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    }
+    
+    .description {
+    height: 100px;
+    
+    }
+
+    
+    .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+
+
+    .logo {
+    width: 50px;
+    height: 50px;
+    }
+
+    .description p {
+    margin-bottom: 10px;
+    }
+
+   .especificaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+   }
+
+    .buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+
+    .button1 {
+    width: 150px;
+    height: 50px;
+    background-color: #ddd;
+    color: #03a9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 50px;
+    }
+    
+
+/*SONY PLAYSTATION 5 DIGITAL EDITION*/
+
+.card {
+    width: 1280px;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 0px 40px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lado-a2 {
+width: 50%;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.card .lado-a2 {
+    background-image: url(/Ecomerce2/Playstation/PS5/background/leather-black-dark-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 25px 0px 0px 25px;
+}
+
+
+.lado-a2 img {
+width: 350px;
+height: 350px;
+margin-top: 30px;
+}
+
+.lado-b2 {
+width: 50%;
+height: 350px;
+font-family: Helvetica, sans-serif;
+padding: 30px 30px 30px 30px;
+display: flex;
+flex-direction: column;
+gap: 120px;
+color: #fff;
+
+}
+
+.card .lado-b2 {
+    background-color: #333;
+    border-radius: 0px 25px 25px 0px;
+    }
+    
+
+.logo2 {
+width: 50px;
+height: 50px;
+}
+
+
+/*JOYSTICK DUALSENSE COSMIC RED*/
+
+.card {
+    width: 1280px;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 0px 40px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lado-a3 {
+width: 50%;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.card .lado-a3 {
+background-image: url(/Ecomerce2/Playstation/PS5/background/cosmic-red.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 25px 0px 0px 25px;
+}
+
+.lado-a3 img {
+width: 442px;
+height: 442px;
+margin-top: 10px;
+}
+
+.lado-b3 {
+width: 50%;
+height: 350px;
+font-family: Helvetica, sans-serif;
+padding: 30px 30px 30px 30px;
+display: flex;
+flex-direction: column;
+gap: 120px;
+color: #fff;
+}
+
+.card .lado-b3 {
+    background-color: #8C2354;
+    border-radius: 0px 25px 25px 0px;
+    }
+
+/*JOYSTICK MIDNIGHT BLACK DUALSENSE*/
+
+    .card {
+        width: 1280px;
+        height: 350px;
+        background-color: #ffffff;
+        margin: 0px 40px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .lado-a4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .card .lado-a4 {
+    background-image: url(/Ecomerce2/Playstation/PS5/background/322494.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 0px 0px 25px;
+    }
+    
+    .lado-a4 img {
+    width: 442px;
+    height: 442px;
+    margin-top: 10px;
+    }
+    
+    .lado-b4 {
+    width: 50%;
+    height: 350px;
+    font-family: Helvetica, sans-serif;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    color: #fff;
+    }
+    
+    .card .lado-b4 {
+        background-color: #190759;
+        border-radius: 0px 25px 25px 0px;
+        }
+
+
+
+/*CAMARA PS5*/
+
+.lado-a5 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+
+.card .lado-a5 {
+    background-image: url(/Ecomerce2/Playstation/PS5/background/camera-eye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 0px 0px 25px;
+    }
+    
+    .lado-a5 img {
+        width: 500px;
+        height: 500px;
+        margin-top: 10px;
+        }
+
+        .lado-b5 {
+            width: 50%;
+            height: 350px;
+            font-family: Helvetica, sans-serif;
+            padding: 30px 30px 30px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            color: #000;
+            }
+            
+            .card .lado-b5 {
+                background-color: #fff;
+                border-radius: 0px 25px 25px 0px;
+                }
+
+
+
+
+.lado-a5 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+
+.card .lado-a5 {
+    background-image: url(/Ecomerce2/Playstation/PS5/background/camera-eye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 0px 0px 25px;
+    }
+    
+    .lado-a5 img {
+        width: 500px;
+        height: 500px;
+        margin-top: 10px;
+        }
+
+        .lado-b5 {
+            width: 50%;
+            height: 350px;
+            font-family: Helvetica, sans-serif;
+            padding: 30px 30px 30px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            color: #000;
+            }
+
+/*HEADSET PS5*/
+
+.lado-a5 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+
+.card .lado-a5 {
+    background-image: url(/Ecomerce2/Playstation/PS5/background/camera-eye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 0px 0px 25px;
+    }
+    
+    .lado-a5 img {
+        width: 500px;
+        height: 500px;
+        margin-top: 10px;
+        }
+
+        .lado-b5 {
+            width: 50%;
+            height: 350px;
+            font-family: Helvetica, sans-serif;
+            padding: 30px 30px 30px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            color: #000;
+            }
